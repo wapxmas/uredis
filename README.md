@@ -1,5 +1,6 @@
 <p align="center">
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wapxmas/uredis/CI)
 </p>
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wapxmas/uredis/CI)
 
 # uredis
