@@ -32,7 +32,7 @@ jobs:
           git clone https://github.com/axboe/liburing
           cd liburing
           git checkout a986f46d6375541f9cf43a7dca9208c61ffb103c
-          make && make install
+          make && sudo make install
           cd ..
           echo building...
           ./build.sh
