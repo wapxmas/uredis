@@ -30,8 +30,8 @@ jobs:
         run: |
           echo cloning liburing
           git clone https://github.com/axboe/liburing
-          git checkout a986f46d6375541f9cf43a7dca9208c61ffb103c
           cd liburing
+          git checkout a986f46d6375541f9cf43a7dca9208c61ffb103c
           make && make install
           cd ..
           echo building...
