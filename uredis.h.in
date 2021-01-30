@@ -1,0 +1,10 @@
+#define IOUringRedis_VERSION_MAJOR @IOUringRedis_VERSION_MAJOR@
+#define IOUringRedis_VERSION_MINOR @IOUringRedis_VERSION_MINOR@
+
+#define IOUringRedis_VersionStr std::string{std::to_string(IOUringRedis_VERSION_MAJOR) \
+    + "." + std::to_string(IOUringRedis_VERSION_MINOR)}
+
+#define IOUringRedis_Description "@IOUringRedis_DESCRIPTION@"
+
+#define IOUringRedis_DescVer std::string{IOUringRedis_Description + \
+    std::string{" v"} + IOUringRedis_VersionStr}
