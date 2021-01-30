@@ -36,4 +36,5 @@ jobs:
           cd ..
           echo building...
           ./build.sh
-          
+          ./buildbin/tests/unit-tests
+
